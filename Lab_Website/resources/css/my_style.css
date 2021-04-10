@@ -1,0 +1,131 @@
+/* Add any css you want to use for you website here */
+img.circle{
+   border-radius: 50%;
+   max-width: 100%;
+   max-height: 100%;
+}
+.dot_deactivated {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_activated {
+  height: 25px;
+  width: 25px;
+  background-color: #66ff66;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bg-primary{
+  background-color: #00ccff !important;
+  /*(color: #00ccff;*/
+  width: 100px;
+  height: 60px;
+}
+
+.table-text-center{
+  padding-left: 20px;
+}
+
+#leftSide{
+  position:absolute;
+  left:10px;
+  right:45%;
+  float:left;
+  width: 45%;
+  height: 500px;
+  margin:10px;
+}
+
+#rightSide{
+  position:absolute;
+  left:48%;
+  right: 30px;
+  float:right;
+  width: 48%;
+  margin:10px
+}
+#portfolioTopper{
+  position:absolute;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin:10px;
+  left:20px;
+  right:20px;
+  bottom:350px;
+  background-color: green;
+  border-top-style:none;
+  border-right-style:none;
+  border-left-style:none;
+  border-bottom-style:solid;
+  border-bottom-width:5px;
+}
+#portfolioTopColumn1{
+  position: absolute;
+  left:20px;
+  right:25%;
+  padding: 20px;
+  height:60px;
+  width:25%;
+  background-color: white;
+}
+#portfolioTopColumn2{
+  position: absolute;
+  left:25%;
+  right:50%;
+  height:60px;
+  padding: 20px;
+  width:25%;
+  background-color: white;
+
+}
+#portfolioTopColumn3{
+  position: absolute;
+  left:50%;
+  right:73%;
+  padding: 20px;
+  height:60px;
+  width:23%;
+  background-color: white;
+}
+#portfolioTopColumn4{
+  position: absolute;
+  left:73%;
+  right:20px;
+  height:60px;
+  padding: 20px;
+  background-color: white;
+}
+#portfolioColumn1{
+  position: absolute;
+  left:0px;
+  right:25%;
+  padding: 20px;
+  height:40px;
+  width:25%;
+}
+#portfolioColumn2{
+  position: absolute;
+  left:25%;
+  right:50%;
+  height:40px;
+  padding: 20px;
+  width:25%;
+}
+#portfolioColumn3{
+  position: absolute;
+  left:50%;
+  right:75%;
+  padding: 20px;
+  height:40px;
+  width:25%;
+}
+#portfolioColumn4{
+  position: absolute;
+  left:75%;
+  right:0px;
+  height:40px;
+  padding: 20px;
+}
